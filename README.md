@@ -24,7 +24,7 @@ npx create-next-app --typescript
 
 Other packages need to install:
 
-=> npm install react-icons zustand axios react-hook-form react-hot-toast
+=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string
 
 => npm install -D prisma => npx prisma init
 
@@ -40,4 +40,8 @@ Code in order as:
 
 => Register function with prisma and mongoDB connection: 1.install prisma, modify models and relations inside "schema.prisma" file; 2.create mongodb project and user, paste link inside .env file with user and password of that database; 3.push prisma models to database by running command: npx prisma db push ; 4.create new folder as 'libs' inside app, create "prismadb.ts" file inside libs to declare prismadb as global and not re-render everytime by react
 
-=> Login (account login and social sign in with google/github)
+=> Login (account login and social sign in with google/github) 1.get client id and secret from github setting, developer setting page. To use the avatar of github, add "avatars.githubusercontent.com" inside "next.config.js" file; 2. google clound console, create new project, open new project, search "enabled api& services", create "OAuth consent screen" (External => name and email => "Credentials" => create OAuth client ID => web application => Authorized redirect URls: http//localhost:3000/api/auth/callback/google ); same image issue as github avatar met.
+
+=> Categories UI with categories of properties setting
+
+=> Categories functionalities:

@@ -21,6 +21,8 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <button
+      onClick={onClick}
+      disabled={disabled}
       className={`relative disabled:opacity-70 disabled:cursor-not-allowed rounded-lg hover:opacity-80 transition w-full ${
         outline
           ? "bg-white border-black text-black"

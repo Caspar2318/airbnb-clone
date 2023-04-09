@@ -16,4 +16,4 @@ npx create-next-app --typescript
 
 => y => EsLint yes => tailwind CSS yes => `src/` No => `app/` yes => import alias (press enter)
 
-=> npm install react-icons
+=> npm install react-icons zustand axios react-hook-form react-hot-toast

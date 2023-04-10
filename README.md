@@ -44,4 +44,4 @@ Code in order as:
 
 => Categories UI with categories of properties setting
 
-=> Categories functionalities:
+=> Categories functionalities: 1. category selection 2. location and map implement

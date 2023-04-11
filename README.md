@@ -24,7 +24,7 @@ npx create-next-app --typescript
 
 Other packages need to install:
 
-=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet
+=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet next-cloudinary
 
 => npm install -D prisma => npx prisma init
 
@@ -44,4 +44,4 @@ Code in order as:
 
 => Categories UI with categories of properties setting
 
-=> Categories functionalities: 1. category selection 2. location and map implement
+=> Categories functionalities: 1. category selection 2. location and map implement 3. Counter page for rooms and guests 4. upload images (using cloudinary, add cloudinary env variables inside .env, variable must start with formart as "NEXT*PUBLIC_CLOUDINARY*...", random named variables will not works) 5. description and price listing 6. submit the form to creat list

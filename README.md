@@ -24,11 +24,11 @@ npx create-next-app --typescript
 
 Other packages need to install:
 
-=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string
+=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet
 
 => npm install -D prisma => npx prisma init
 
-=> npm install next-auth @prima/client @next-auth/prisma-adapter bcrypt => npm install -D @types/bcrypt
+=> npm install next-auth @prima/client @next-auth/prisma-adapter bcrypt => npm install -D @types/bcrypt => npm install leaflet => npm install -D @types/leaflet
 
 ---
 

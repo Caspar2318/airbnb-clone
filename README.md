@@ -24,7 +24,7 @@ npx create-next-app --typescript
 
 Other packages need to install:
 
-=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet next-cloudinary
+=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet next-cloudinary date-fns
 
 => npm install -D prisma => npx prisma init
 

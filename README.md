@@ -50,4 +50,12 @@ Code in order as:
 
 => Listing: 1. create Listing UI to upload personal property to advertised it to Airbnb 2. fetch listing data from server side 3. favorite listing function 4. listing detail page 5. listing reservation function
 
-=> Reservation 1. reserve function through listing page 2. gray out the reserved date from selection range of date for reservation (getReservations.ts)
+=> Reservation: 1. reserve function through listing page 2. gray out the reserved date from selection range of date for reservation (getReservations.ts)
+
+=> Add "My trips" (trips as a guest): 1. add trips page UI 2. add axios delete requested cancel reservation
+
+=> Add "My reservations" page, similar with my trips page, but this is the reservations show for properties' owner, owner can also delete guest reservation here. those two pages shares same logic
+
+=> Add "My favorites" page and logics
+
+=> Add "My properties" page and logics

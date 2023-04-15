@@ -6,8 +6,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { Range } from "react-date-range";
 
-import { SafeUser, SafeListing } from "@/app/types";
-import { Reservation } from "@prisma/client";
+import { SafeUser, SafeListing, SafeReservation } from "@/app/types";
 
 import categories from "@/app/components/navbar/constant";
 import Container from "@/app/components/Container";
@@ -23,7 +22,7 @@ const initialDateRange = {
 };
 
 interface ListingClientProps {
-  reservations?: Reservation[];
+  reservations?: SafeReservation[];
   listing: SafeListing & {
     user: SafeUser;
   };
@@ -38,6 +37,7 @@ const ListingClient = ({
   const loginModal = useLoginModal();
   const router = useRouter();
 
+  // disable the date with reservations already
   const disabledDates = useMemo(() => {
     let dates: Date[] = [];
 

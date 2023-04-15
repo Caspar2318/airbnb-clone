@@ -49,3 +49,5 @@ Code in order as:
 => Categories functionalities: 1. category selection 2. location and map implement 3. Counter page for rooms and guests 4. upload images (using cloudinary, add cloudinary env variables inside .env, variable must start with formart as "NEXT*PUBLIC_CLOUDINARY*...", random named variables will not works) 5. description and price listing 6. submit the form to creat list
 
 => Listing: 1. create Listing UI to upload personal property to advertised it to Airbnb 2. fetch listing data from server side 3. favorite listing function 4. listing detail page 5. listing reservation function
+
+=> Reservation 1. reserve function through listing page 2. gray out the reserved date from selection range of date for reservation (getReservations.ts)

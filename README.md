@@ -26,7 +26,7 @@ npx create-next-app --typescript
 
 Other packages need to install:
 
-=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet next-cloudinary date-fns
+=> npm install react-icons zustand axios react-hook-form react-hot-toast query-string world-countries react-select react-leaflet next-cloudinary date-fns react-spinners
 
 => npm install -D prisma => npx prisma init
 
@@ -59,3 +59,11 @@ Code in order as:
 => Add "My favorites" page and logics
 
 => Add "My properties" page and logics
+
+=> Search modal
+
+=> small part fix: loader, add search title inside navbar...
+
+---
+
+deploy via Vercel.com

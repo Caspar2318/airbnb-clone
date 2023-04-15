@@ -1,6 +1,6 @@
 # Airbnb Clone -- all the features cloned from airbnb, greate practice project with Full stack usage in TypeScript
 
-Live address at:
+Live address at: https://travel-trips-f2t3sme8q-caspar2318.vercel.app/
 
 ---
 
@@ -66,4 +66,24 @@ Code in order as:
 
 ---
 
-deploy via Vercel.com
+deploy via Vercel.com, if met problem shows as 'Error: Error: Dynamic server usage: searchParams.userId" while deploying inside vercel. Solution as:
+
+---
+
+add one line inside page.tsx under app folder to make dynamic='force-dynamic'
+
+export const dynamic='force-dynamic';
+
+export default function Home(props: unknown) {
+return (
+<main>
+<pre>
+{JSON.stringify(props, null, 2)}
+</pre>
+</main>
+)
+}
+
+---
+
+Do not use words with Airbnb while deploying inside Vercel, than it can be report as fishing website after deployment.
